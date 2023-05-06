@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Russian-travel</title>
+    <title>Путешествия по России</title>
 </head>
 
 <body class="body">
     <header class="header">
-        <img class="header-logo" src="./images/__logo.png" alt="Логотип">
+        <img class="header-logo" src="./images/__logo.svg" alt="Логотип">
         <div class="header__languages">
             <a class="header__language header__language_active" href="">Ru</a>
             <a class="header__language" href="">En</a>
@@ -40,18 +40,20 @@
                 Аэропортов 241</p>
         </section>
         <section class="photo-grid">
-            <img class="photo-grid__item" src="./images/1__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/2__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/3__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/4__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/5__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/6__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/7__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/8__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/9__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/10__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/11__item.png" alt="Картинка">
-            <img class="photo-grid__item" src="./images/12__item.png" alt="Картинка">
+            <div class="grid">
+                <img class="grid__item" src="./images/1__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/2__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/3__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/4__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/5__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/6__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/7__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/8__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/9__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/10__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/11__item.png" alt="Картинка">
+                <img class="grid__item" src="./images/12__item.png" alt="Картинка">
+            </div>
         </section>
         <section class="places">
             <div class="place">
@@ -75,8 +77,10 @@
             <div class="place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="website">
-                    <a class="website__url-heading" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">URL</a><br>
-                    <a class="website__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                    <a class="website__url-heading"
+                        href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">URL</a><br>
+                    <a class="website__link"
+                        href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                 </div>
                 <img class="place__image" src="./images/kolskiy__image.png" alt="Картинка">
                 <div>
@@ -131,7 +135,7 @@
                     <a class="website__url-heading" href="http://vodlozero.ru">URL</a><br>
                     <a class="website__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                 </div>
-                <img class="place__image" src="./images/Karelia__image.png" alt="Картинка">
+                <img class="place__image" src="./images/karelia__image.jpg" alt="Картинка">
                 <div>
                     <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                         сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров —
@@ -152,23 +156,15 @@
         </section>
     </main>
     <footer class="footer">
-        <ul class="footer__links">
-            <a class="footer__link" href="https://yandex.ru/maps">
-                <li>Карты</li>
-            </a>
-            <a class="footer__link" href="https://yandex.ru/pogoda">
-                <li>Погода</li>
-            </a>
-            <a class="footer__link" href="https://rasp.yandex.ru">
-                <li>Расписание</li>
-            </a>
-            <a class="footer__link" href="https://calendar.yandex.ru">
-                <li>Календарь</li>
-            </a>
-            <a class="footer__link" href="https://travel.yandex.ru">
-                <li>Путешествия</li>
-            </a>
-        </ul>
+        <nav>
+            <ul class="footer__links">
+                <li class="footer__link"><a class="footer__link" href="https://travel.yandex.ru">Карты</a></li>
+                <li class="footer__link"><a class="footer__link" href="https://travel.yandex.ru">Погода</a></li>
+                <li class="footer__link"><a class="footer__link" href="https://travel.yandex.ru">Расписание</a></li>
+                <li class="footer__link"><a class="footer__link" href="https://travel.yandex.ru">Календарь</a></li>
+                <li class="footer__link"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+            </ul>
+        </nav>
         <p class="footer__copyright">© 2023. Дмитрий Кузнецов</p>
     </footer>
 </body>

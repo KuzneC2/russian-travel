@@ -14,3 +14,7 @@
     }
 
 }
+
+.header__language:hover{
+    opacity: 0.3;
+}
