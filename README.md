@@ -8,4 +8,4 @@
 3. Grid
 4. Flex
 
-### Ссылка на Gitpage- 
+### Ссылка на Gitpage- https://kuznec2.github.io/russian-travel/
