@@ -20,27 +20,34 @@
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
     .cover__background {
         min-height: 480px;
+        max-height: 46vh;
+
     }
 
 }
 
 @media screen and (max-width:768px) {
     .cover__background {
-        height: 46vh;
-        min-height: 200px;
+        max-height: 46vh;
     }
 
 }
 @media screen and (max-width:480px) {
     .cover__background {
-        height: 20vh;
+        max-height: 20vh;
     }
 
 }
 
+@media screen and (max-width: 320px) {
+    .cover__background{
+        min-height: 200px;
+    }
+    
+}
 
 .cover__background::after {
     content: '';

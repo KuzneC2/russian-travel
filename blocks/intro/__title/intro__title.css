@@ -1,6 +1,6 @@
 .intro__title {
     display: flex;
-    margin-bottom: 40px;
+    margin: 0 0 40px 0;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
