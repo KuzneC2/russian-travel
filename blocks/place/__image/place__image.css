@@ -2,22 +2,25 @@
     /* grid-row: 2/4; */
     max-width: 480px;
     height: auto;
+    
 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .place__image {
-        width: 36vw
+        width: 45vw;
+        max-width: 440px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     .place__image {
-        width: 43vw;
+    
+        max-width: 340px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .place__image {
         width: 100%;
         margin: 32px 0;

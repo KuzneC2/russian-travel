@@ -12,7 +12,7 @@
     background-position: center;
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1279px) {
     .cover__background {
         width: 100%;
         min-height: 640px;
@@ -23,24 +23,12 @@
 @media screen and (max-width:768px) {
     .cover__background {
         min-height: 480px;
-        max-height: 46vh;
-
     }
 
 }
 
-@media screen and (max-width:768px) {
-    .cover__background {
-        max-height: 46vh;
-    }
 
-}
-@media screen and (max-width:480px) {
-    .cover__background {
-        max-height: 20vh;
-    }
 
-}
 
 @media screen and (max-width: 320px) {
     .cover__background{

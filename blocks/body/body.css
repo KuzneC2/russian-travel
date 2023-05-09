@@ -4,4 +4,6 @@
     padding: 0;
     color: #FFFFFF;
     font-family: 'Inter',Arial, sans-serif;
+    box-sizing: border-box;
 }
+
