@@ -28,8 +28,9 @@
 
 @media screen and (max-width:480px) {
     .place__paragraph {
-        margin: 0 1em 25px;
-        
+        font-size: 16px;
+        width: calc(100% - 2*16px);
+        margin: 0 auto 25px;
     }
 }
 
